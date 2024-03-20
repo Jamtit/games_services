@@ -68,7 +68,7 @@ The requests are accepted through `localhost:5000` on *Postman*
 > In postman use the template `https://localhost:5000/api/games/{id}`
 - Change the request type to *Get*
 - Add the template address
-- Instead of `{id}` write a number of your choice `ex: https://localhost:5000/api/games/{id}`
+- Instead of `{id}` write a number of your choice `ex: https://localhost:5000/api/games/1`
 
 ### Company
 *All*
@@ -80,7 +80,7 @@ The requests are accepted through `localhost:5000` on *Postman*
 > In postman use the template `https://localhost:5000/api/company/{id}`
 - Change the request type to *Get*
 - Add the template address
-- Instead of `{id}` write a number of your choice `ex: https://localhost:5000/api/company/{id}`
+- Instead of `{id}` write a number of your choice `ex: https://localhost:5000/api/company/1`
 
 ## Update:
 ### Game
@@ -152,7 +152,7 @@ The requests are accepted through `localhost:5000` on *Postman*
 > In postman use the template `https://localhost:5000/api/game/{id}`
 - Change the request type to *Delete*
 - Add the template address
-- Instead of `{id}` write a number of your choice `ex: https://localhost:5000/api/game/{id}`
+- Instead of `{id}` write a number of your choice `ex: https://localhost:5000/api/game/1`
 - Send the request
 - The record by that `id` shouldn't exist
 
@@ -169,7 +169,7 @@ The requests are accepted through `localhost:5000` on *Postman*
 > In postman use the template `https://localhost:5000/api/company/{id}`
 - Change the request type to *Delete*
 - Add the template address
-- Instead of `{id}` write a number of your choice `ex: https://localhost:5000/api/company/{id}`
+- Instead of `{id}` write a number of your choice `ex: https://localhost:5000/api/company/1`
 - Send the request
 - The record by that `id` shouldn't exist
 
